@@ -11,7 +11,7 @@
 :root{
 
 	--colorDefault: #ffff00;
-	--whiteColor: #ffffff; 
+	--whiteColor: #ffffff;
 }
 
 /*LOADER*/
@@ -182,7 +182,7 @@ body{
 }
 .home{
 	background: url("d://portfolio1/images/header/img.jpg") no-repeat;
-	background-size: cover; 
+	background-size: cover;
 	height: 45rem;
 }
  .home .col-md-6{
@@ -198,7 +198,7 @@ body{
 .titles > h3{
 	font-size: 3rem;
 	text-align: center;
-	color: var(--whiteColor); 
+	color: var(--whiteColor);
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 0.5px;
 }
@@ -232,12 +232,12 @@ body{
 
 .services > .container > .row > .col-md-4 > .card{
 	border: none;
-	border-radius: 0; 
+	border-radius: 0;
 }
 .services > .container > .row > .col-md-4 > .card > .card-header{
 	text-align: center;
 	border-bottom: none;
-	background-color: transparent; 
+	background-color: transparent;
 }
 .card > .card-header > i{
 	font-size: 3rem;
@@ -314,10 +314,10 @@ body{
 }
 .social-networks > a{
 	text-decoration: none;
-	margin: 5px; 
+	margin: 5px;
 }
 .social-networks > a > i{
-	
+
     width: 40px;
 	height: 40px;
 	background-color: var(--colorDefault);
@@ -333,7 +333,7 @@ body{
 }
 .social-networks > a > i:hover{
 	background-color: #000000;
-	color: var(--colorDefault); 
+	color: var(--colorDefault);
 }
 
 /*RESPONSIVE*/
@@ -378,7 +378,7 @@ body{
         margin: 25% auto;
     }
     .titles > p{
-        font-size: 1.3rem;  
+        font-size: 1.3rem;
     }
     .titles > h3{
         font-size: 2rem;
@@ -476,6 +476,9 @@ body{
     .button > a{
         padding: 1rem 1.5rem;
         font-size: 1rem;
+    }
+    {
+        background-color: red;;
     }
 
     /**SERVICES**/
@@ -1066,7 +1069,7 @@ body{
     }
     .navbar-nav > li{
         margin: 10px;
-        height: 10rem; 
+        height: 10rem;
     }
 
     /**HOME**/
